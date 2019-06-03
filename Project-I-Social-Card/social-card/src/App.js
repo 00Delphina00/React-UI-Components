@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       {/* <h3>Welcome to React Social Card!</h3> */}
-      <h3><strong>Lambda School</strong> @LambdaSchool*{Date.toDateString()}</h3>
+      <h3><strong>Lambda School</strong> @LambdaSchool*{Let today = new Date;  today.toDateString()}</h3>
       <p>
         {/* Begin by exploring the `components` directory. You'll notice we have a */}
         {/* few files that we've already included in there to get you started right */}
