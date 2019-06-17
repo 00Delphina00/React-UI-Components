@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid yellow; */
+  width: 95%;
+  padding: 10px;
+}
+.lambdaHeaderTxt {
+  font-weight: bold;
+}
+.imageThumbnail {
+  /* border: 2px solid dodgerblue; */
+  width: 100%;
+}
+.thumbnailDiv {
+  padding-top: 25px;
+  width: 30%;
+}
+.headerTitle {
+  display: flex;
+  /* border: 2px solid red; */
+}
+.lambdaHandle {
+  margin-left: 10px;
+  color: rgb(155, 146, 146);
+  font-size: 1rem;
+}
+.timeStamp {
+  margin-left: 5px;
+  color: rgb(155, 146, 146);
+  font-size: 0.96 rem;
+}
