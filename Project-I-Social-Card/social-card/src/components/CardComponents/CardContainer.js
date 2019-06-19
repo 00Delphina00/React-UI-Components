@@ -1,13 +1,12 @@
 import React from 'react';
 import './Card.css';
-import CardBanner  from './components/CardComponents/CardBanner';
-import CardContent from './components/CardComponents/CardContent';
+import CardContent from "./CardContent";
 
-
-const CardContainer = ()=>{
-  return(  
-            <CardBanner/>
-            <CardContent/>
-  )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+const CardContainer = () => {
+  return (
+    <div className="cardContainer">
+      <CardContent />
+    </div>
+  );
 };
 export default CardContainer;

@@ -1,1 +1,18 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+    /* border: 1px solid red; */
+    width: 95%;
+    padding: 10px;
+  }
+  .cardContent {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 8px;
+  }
+  .cardBanner img {
+    width: 100%;
+  }
+  .cardText{
+    padding: 10px;
+  }
