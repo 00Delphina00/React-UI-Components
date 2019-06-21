@@ -1,0 +1,18 @@
+.container {
+    margin: auto auto;
+    width: 456px;
+    height: 598px;
+    border: 1.5px solid grey;
+  }
+  .numberButtons {
+    height: 82%;
+    /* border: 1px solid green;  */
+  }
+  .btnRow {
+    height: 20.2%;
+    /* border: 1px solid blue; */
+  }
+  .calculatorDisplay {
+    height: 17.1%;
+  }
+  

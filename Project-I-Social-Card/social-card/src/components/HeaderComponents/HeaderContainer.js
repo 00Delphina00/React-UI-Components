@@ -1,13 +1,16 @@
 import React from 'react';
 import './Header.css';
-import './components/HeaderComponents/HeaderTitle';
-import './components/Headeromponents/HeaderContent';
+import HeaderContent from "./HeaderContent";
 
-const HeaderContainer = ()=>{
-  return  (
-  <HeaderTitle/>
-  <HeaderContent/>
-  )
+import HeaderTitle from "./HeaderTitle";
+
+const HeaderContainer = () => {
+  return (
+    <div className="headerContainer">
+      <HeaderTitle />
+      <HeaderContent />
+    </div>
+  );
 };
 
   export default HeaderContainer;

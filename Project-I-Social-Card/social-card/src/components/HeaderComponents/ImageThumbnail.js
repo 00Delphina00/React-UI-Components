@@ -1,8 +1,16 @@
 import React from 'react';
 import './Header.css';
 
-const ImageThumbnail = ()=>{
-    return  <img src = "./social-card/public/favicon.ico" alt = "atom model"/>;
-};
+const ImageThumbnail = () => {
+    return (
+      <div className="thumbnailDiv">
+        <img
+          className="imageThumbnail"
+          src="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png"
+          alt="Lambda Crest"
+        />
+      </div>
+    );
+  };
 
 export default ImageThumbnail;

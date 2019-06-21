@@ -1,0 +1,23 @@
+.red {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(185, 11, 11);
+    color: white;
+    font-size: 3rem;
+    border: 1px solid grey;
+  }
+  .clearBtn {
+    background-color: white;
+    height: 100%;
+    width: 75%;
+    font-size: 3rem;
+    border: 1px solid grey;
+  }
+  .zeroBtn {
+    background-color: white;
+    height: 100%;
+    width: 75%;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 1px solid grey;
+  }
